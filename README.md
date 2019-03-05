@@ -15,3 +15,5 @@ https://www.keithstestgarage.com/led-candle-that-looks-lights-flickers-blows-out
 https://www.youtube.com/watch?v=Y96owyGh2Pw
 
 https://www.instructables.com/id/About-This-Candle-How-to-Read-This-Instructable/
+
+![Milestones](milestones.jpg)
