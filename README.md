@@ -1,7 +1,6 @@
 # KeithsLEDCandle
 LED Candle that Looks, Lights, Flickers, Blows out, Smokes, and Smells Like A Real Candle
 
-At this point, the code is to supplement an instructable (link TBD after publishing.
 
 **There are 3 folders for each of 3 milestones:**
 
@@ -14,3 +13,7 @@ At this point, the code is to supplement an instructable (link TBD after publish
 https://www.keithstestgarage.com/led-candle-that-looks-lights-flickers-blows-out-smokes-and-smells-like-a-real-candle/
 
 https://www.youtube.com/watch?v=Y96owyGh2Pw
+
+https://www.instructables.com/id/About-This-Candle-How-to-Read-This-Instructable/
+
+![Milestones](milestones.jpg)
