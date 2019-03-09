@@ -114,14 +114,14 @@ void checkSensors(){
   }
 
   if (!lit){ // if candle isn't lit
-    if (flame_val > FLAME_THRESHOLD)  { // if flame is detected
+    if (flame_val > FLAME_THRESHOLD)  { // if match flame is detected
         
-        // record the starting time (if flame not yet detected)
-        if (!flaming){  // if not flaming
+        // record the starting time (if candle hasn't been lit yet)
+        if (!flaming){  
           flaming = true; 
           flameStartedMillis = millis();  // record time that flaming begins
         }
-        else if (checkFlame()){ // has flame been flaming long enough?          
+        else if (checkFlame()){ // has match been flaming long enough?          
           lightCandle(); // ok finally light it up. 
           lit = true; 
         }
@@ -134,7 +134,7 @@ void checkSensors(){
 }
 
 
-// Check if flame has been detected long enough.
+// Check if match flame has been detected long enough.
 bool checkFlame(){    
   unsigned long currentMillis = millis(); // get current time
   if (currentMillis - flameStartedMillis >= FLAME_DURATION) {
